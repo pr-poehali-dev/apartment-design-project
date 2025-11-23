@@ -13,38 +13,38 @@ const Index = () => {
       name: 'Кухня',
       icon: 'ChefHat',
       area: '16.81 м²',
-      image: 'https://cdn.poehali.dev/projects/3fea0af0-b8ee-4308-ad8f-cb76d5ba6d29/files/ead66cf0-fdd3-463f-90ab-7f1dabab6639.jpg',
+      image: 'https://cdn.poehali.dev/projects/3fea0af0-b8ee-4308-ad8f-cb76d5ba6d29/files/6c7b4cb9-da92-45a2-a3cb-96ba06751723.jpg',
       features: [
-        'Островная планировка',
-        'Встроенная техника',
-        'Мраморная столешница',
-        'LED-подсветка',
-        'Зона хранения'
+        'Темно-синие фасады',
+        'Латунная фурнитура',
+        'Кварцевая столешница',
+        'Золотые светильники',
+        'Открытые полки'
       ],
-      description: 'Современная кухня с островом сочетает функциональность и стиль. Светлые фасады с деревянными акцентами создают уютную атмосферу.'
+      description: 'Элегантная кухня в стиле contemporary с темными фасадами глубокого синего цвета. Латунные акценты и геометрическая плитка добавляют роскоши.'
     },
     {
       id: 'hallway',
       name: 'Прихожая',
       icon: 'DoorOpen',
       area: '3.28 м²',
-      image: 'https://cdn.poehali.dev/projects/3fea0af0-b8ee-4308-ad8f-cb76d5ba6d29/files/463b8d5e-e8ee-4fc3-97fc-c96217e9ae56.jpg',
+      image: 'https://cdn.poehali.dev/projects/3fea0af0-b8ee-4308-ad8f-cb76d5ba6d29/files/86173247-c7ab-49f3-8a5f-db7ae1b9b0c1.jpg',
       features: [
-        'Встроенный шкаф',
-        'Зеркало во весь рост',
-        'Мягкая скамья',
-        'Крючки для одежды',
-        'Умное освещение'
+        'Деревянные панели',
+        'Латунное зеркало',
+        'Консольный столик',
+        'Текстурные обои',
+        'Акцентное освещение'
       ],
-      description: 'Функциональная прихожая с продуманной системой хранения. Минималистичный дизайн и грамотное освещение визуально расширяют пространство.'
+      description: 'Изысканная прихожая с темными деревянными панелями и латунными акцентами. Создает эффектное первое впечатление от квартиры.'
     }
   ];
 
   const materials = [
-    { name: 'Белый матовый', type: 'Фасады кухни', color: '#FFFFFF' },
-    { name: 'Дуб натуральный', type: 'Акценты', color: '#C19A6B' },
-    { name: 'Мрамор Каррара', type: 'Столешница', color: '#F5F5F5' },
-    { name: 'Серый бетон', type: 'Стены', color: '#B8B8B8' }
+    { name: 'Темно-синий', type: 'Фасады кухни', color: '#1e3a5f' },
+    { name: 'Латунь', type: 'Акценты', color: '#B8860B' },
+    { name: 'Белый кварц', type: 'Столешница', color: '#FAFAFA' },
+    { name: 'Темное дерево', type: 'Панели', color: '#3d2817' }
   ];
 
   const currentRoom = rooms.find(room => room.id === selectedRoom);
@@ -60,7 +60,7 @@ const Index = () => {
             Квартира 46.85 м²
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Современный интерьер с акцентом на функциональность и минимализм
+            Элегантный интерьер с благородными темными оттенками и латунными акцентами
           </p>
         </header>
 
@@ -169,7 +169,7 @@ const Index = () => {
             
             <div className="mb-6">
               <img 
-                src="https://cdn.poehali.dev/projects/3fea0af0-b8ee-4308-ad8f-cb76d5ba6d29/files/f13928da-1b1c-4578-bf1c-e172e18e9aae.jpg"
+                src="https://cdn.poehali.dev/projects/3fea0af0-b8ee-4308-ad8f-cb76d5ba6d29/files/b5a5e33c-20d2-4653-9094-72533ad2bb50.jpg"
                 alt="Палитра материалов"
                 className="w-full rounded-xl shadow-lg"
               />
